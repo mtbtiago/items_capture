@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ItemCapture</title>
+  <title>Item Capture</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+  <meta content="IE=9" http-equiv="X-UA-Compatible">
+  <meta content=
+  "user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+  name="viewport">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="text/css" http-equiv="Content-Style-Type">
+  <meta content="text/javascript" http-equiv="Content-Script-Type">
+
+ </head>
+<body onload="EB_load()" onunload="EB_unload()" spellcheck="false">
+<!-- <body> -->
 
 <%= yield %>
 
