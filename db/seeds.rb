@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+require 'pathname'
 
 unless Rails.env.production?
   connection = ActiveRecord::Base.connection
@@ -12,7 +13,11 @@ unless Rails.env.production?
     connection.execute("TRUNCATE #{table}") unless table == "schema_migrations"
   end
  
-  sql = File.read('db/seeds.sql')
+  rails_root = Pathname.new(RAILS_ROOT).expand_path
+
+  puts "Creating seed data ..."
+
+  sql = File.read(rails_root+'db/seeds.sql')
   statements = sql.split(/;$/)
   statements.pop
  
