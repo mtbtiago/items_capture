@@ -13,11 +13,11 @@ unless Rails.env.production?
     connection.execute("TRUNCATE #{table}") unless table == "schema_migrations"
   end
  
-  rails_root = Pathname.new(RAILS_ROOT).expand_path
+  rails_root = Pathname.new(Rails.root).expand_path
 
   puts "Creating seed data ..."
 
-  sql = File.read(rails_root+'db/seeds.sql')
+  sql = File.read(rails_root.to_s+'/db/seeds.sql')
   statements = sql.split(/;$/)
   statements.pop
  
