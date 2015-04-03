@@ -25,5 +25,9 @@ module ItemCapture
 
     # config.web_console.whitelisted_ips = '10.25.2.208'
     # config.web_console.whiny_requests = false
+
+
+    config.assets.enabled = false
+
   end
 end
