@@ -27,7 +27,7 @@ module ItemCapture
     # config.web_console.whiny_requests = false
 
 
-    config.assets.enabled = false
+    config.assets.digest = false
 
   end
 end
