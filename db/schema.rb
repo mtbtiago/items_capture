@@ -11,10 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150330164422) do
+ActiveRecord::Schema.define(version: 20150407173922) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "art031s", force: :cascade do |t|
+    t.string   "codigo"
+    t.string   "nombre"
+    t.string   "referencia"
+    t.string   "nombre_fto"
+    t.float    "cant_medida"
+    t.integer  "proveedor"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "art031s", ["codigo"], name: "index_art031s_on_codigo", unique: true, using: :btree
 
   create_table "customers", force: :cascade do |t|
     t.string   "customer_id"
@@ -69,6 +82,21 @@ ActiveRecord::Schema.define(version: 20150330164422) do
 
   add_index "orders", ["customer_id", "order_date"], name: "ix_customer_id", order: {"order_date"=>:desc}, using: :btree
   add_index "orders", ["order_date"], name: "ix_order_date", order: {"order_date"=>:desc}, using: :btree
+
+  create_table "pro032s", force: :cascade do |t|
+    t.integer  "codigo"
+    t.string   "nombre"
+    t.string   "email"
+    t.string   "telefono"
+    t.string   "movil"
+    t.string   "fax"
+    t.string   "nota"
+    t.text     "comentario"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "pro032s", ["codigo"], name: "index_pro032s_on_codigo", unique: true, using: :btree
 
   create_table "products", force: :cascade do |t|
     t.string   "product_id"

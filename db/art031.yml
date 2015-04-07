@@ -1,0 +1,149 @@
+
+---
+art031:
+  columns:
+  - codigo
+  - nombre
+  - referencia
+  - nombre_fto
+  - cant_medida
+  - proveedor
+  records: 
+  - - '01001'
+    - 'HORA SERVICIO TÉCNICO (Tiago)'
+    - ''
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '10114'
+    - 'LICENCIA ADICIONAL PROGRAMA "FSO"'
+    - 'FSO'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13108'
+    - 'LICENCIA ADICIONAL  SISAVISO'
+    - 'SISAVISO'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13201'
+    - 'APLICACIÓN CONTABILIDAD SISCONTA PRO'
+    - 'SC'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13202'
+    - 'LICENCIA ADICIONAL SISCONTA PRO'
+    - 'SC'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13301'
+    - 'APLICACIÓN CONTABILIDAD SISCONTA STD'
+    - 'SC'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13302'
+    - 'LICENCIA ADICIONAL SISCONTA STD'
+    - 'SC'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13410'
+    - 'MÓDULO SISCONTA TALONES Y PAGARÉS'
+    - 'SC'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13504'
+    - 'LICENCIA ADICIONAL SISVENTA STD'
+    - 'SV'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13505'
+    - 'LICENCIA ADICIONAL SISVENTA PRO'
+    - 'SV'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13512'
+    - 'LICENCIA ADICIONAL SISTPV'
+    - 'SISTPV'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13602'
+    - 'LICENCIA ADICIONAL SISRES'
+    - 'SISRES'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13631'
+    - 'LICENCIA ADICIONAL SISAGUA 2'
+    - 'SISAGUA2'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13810'
+    - 'LICENCIA ADICIONAL SISFACTU'
+    - 'SF'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13903'
+    - 'LICENCIA ADICIONAL I-ENERGO'
+    - 'I-ENERGO'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13951'
+    - 'SISAGUA2 M. INCLUYE 12 MESES MANTENIMIENTO Y FORMACIÓN'
+    - 'SISAGUA2'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '13952'
+    - 'SISAGUA2 L. INCLUYE 12 MESES MANTENIMIENTO Y FORMACIÓN'
+    - 'SISAGUA2'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '20000'
+    - 'SERVICIO DE MANTENIMIENTO VARIOS'
+    - '2'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '20006'
+    - 'SERVICIO MANTENIMIENTO Y  NUESTRA FACTURA TARIFA PLANA'
+    - '2'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '43013'
+    - 'SUSTITUCIÓN BATERÍA BACKUP MOVILGES'
+    - 'MOVILGES'
+    - 'UNID'
+    - 1.000000
+    - '40018'
+  - - '43032'
+    - 'REGRABACION/ACTUALIZACION FIRMWARE (S.O. MOVILGES)'
+    - ''
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '44029'
+    - 'CINTA CORONA DURASIN  BLANCA 95x91,5 ML  ROLLO 91,5 ML'
+    - 'T01DURBL0001'
+    - 'UNID'
+    - 1.000000
+    - '0'
+  - - '80003'
+    - 'TARIFA PLANA ANUAL NUESTRA FACTURA (DESDE 20.000 FACTURAS)'
+    - 'NF'
+    - 'UNID'
+    - 1.000000
+    - '0'

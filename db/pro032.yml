@@ -1,0 +1,34 @@
+
+---
+pro032:
+  columns:
+  - codigo
+  - nombre
+  - email
+  - telefono
+  - movil
+  - fax
+  - nota
+  - comentario
+  records: 
+  - - '2'
+    - 'PANDA SOFTWARE SPAIN, S.L.U.'
+    - 'info.bcn@pandasoftware.es'
+    - '902 243 653 ó 93 207 56 90'
+    - ''
+    - '934585900'
+    - ''
+    - |
+      Per enviar mail a Oscar Oliva:
+      Ooliva@pandasoftware.es
+      *** GENER 2006 ***
+      A partir d'ara es nostre comercial és Luís Poblet.
+      Per enviar mail a : lpoblet@pandasoftware.es
+  - - '40021'
+    - 'WACOM EUROPE GMBH'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
